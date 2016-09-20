@@ -8,6 +8,7 @@ boston_data = datasets.load_boston()
 # example of loading data on the local host using pandas
 # index_col = # if a specific column (specified by its position, #) should be used as the index (1,2,3,...)
 # header=None if there are no column headers
+# sep = ',' for comma sperated, sep=' ' for space seperated, etc...
 data = pd.read_csv('/path/to/data.csv')
 
 # for the boston data it's a bit different, first look at the keys
