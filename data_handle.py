@@ -28,8 +28,8 @@ data.head()
 boston_df = pd.DataFrame(data=boston_features, columns=boston_feature_names)
 print(boston_df.head())
 
-# add a column to the dataframe, unless a position is specified
-# column gets added to the end
+# add a column to the dataframe, 
+# unless a position is specified column gets added to the end
 boston_df['target'] = boston_data.target
 
 # look at the columns headers from local data
