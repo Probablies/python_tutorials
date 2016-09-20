@@ -34,7 +34,7 @@ X.sum(0)
 X.sum(1)
 
 # other operations are similar
-print(X.min(0), X.min(1))
+print(X.min(0), X.max(1))
 
 # if you want to turn a multi dimensional array or matrix into a single "list" like thing
 X.flatten()
