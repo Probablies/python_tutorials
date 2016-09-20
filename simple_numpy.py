@@ -17,7 +17,7 @@ print(X.shape, y.shape)
 # index a column using X[first_dimension, second_dimension]
 # X[:,:] will give you the entire matrix, it is equivalent to X
 # you can also specify ranges for indexing
-# index rows 1 to 3, colum 4
+# index rows 1 to 3, column 4
 X[:3, 3]
 
 # single index will give you a row
