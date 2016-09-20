@@ -44,4 +44,3 @@ boston_df.describe()
 
 # compute the correlation matrix of boston_df
 boston_df.corr()
-
