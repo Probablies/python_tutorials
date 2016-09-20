@@ -29,7 +29,7 @@ boston_df = pd.DataFrame(data=boston_features, columns=boston_feature_names)
 print(boston_df.head())
 
 # add a column to the dataframe, 
-# unless a position is specified column gets added to the end
+# unless a position is specified, column gets added to the end
 boston_df['target'] = boston_data.target
 
 # look at the columns headers from local data
@@ -40,7 +40,7 @@ data['column_header']
 # or
 data.column_header
 
-# quickly computer summary statistics on boston_df
+# quickly compute summary statistics on boston_df
 boston_df.describe()
 
 # compute the correlation matrix of boston_df
