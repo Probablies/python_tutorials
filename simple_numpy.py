@@ -32,7 +32,7 @@ X.sum(0)
 # compute the sum, row wise
 X.sum(1)
 
-# other operations are similar,
+# other operations are similar
 print(X.min(0), X.min(1))
 print(X.max(0), X.max(1))
 
