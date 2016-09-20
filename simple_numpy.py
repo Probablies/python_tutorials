@@ -10,7 +10,7 @@ np.random.seed(3)
 X = np.array([np.random.normal(size=5) for x in range(7)]).T
 y = np.random.normal(size=5)
 # you can figure out the dimensions of any numpy array 
-print(X.shape)
+print(X.shape, y.shape)
 
 # indexing numpy arrays
 # index a column using X[first_dimension, second_dimension]
@@ -34,7 +34,6 @@ X.sum(1)
 
 # other operations are similar
 print(X.min(0), X.min(1))
-print(X.max(0), X.max(1))
 
 # if you want to turn a multi dimensional array or matrix into a single "list" like thing
 X.flatten()
