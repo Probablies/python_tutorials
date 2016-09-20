@@ -1,14 +1,14 @@
 import numpy as np
 
-# set a random seed so that the same numbers alway some up
+# set a random seed so that the same numbers alway come up
 np.random.seed(3) 
  
 # create some dummy data using numpy
 # add .T at the end of numpy objects to transpose them
-# X constitute the feature space, y will constitute the responses
+# X constitutes the feature space, y will constitute the responses
 # below we create a 10 by 7 matrix
 X = np.array([np.random.normal(size=5) for x in range(7)]).T
-
+y = np.random.normal(size=5)
 # you can figure out the dimensions of any numpy array 
 print(X.shape)
 
@@ -23,7 +23,7 @@ X[:3, 3]
 X[2]
 
 # numpy is "vectorized"
-# so indexing a single column in its own will look like a row vector
+# so indexing a single column on its own will look like a row vector
 X[:, 2]
 
 # compute the sum, column wise
