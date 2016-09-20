@@ -7,9 +7,9 @@ np.random.seed(3)
 # add .T at the end of numpy objects to transpose them
 # X constitutes the feature space, y will constitute the responses
 # below we create a 10 by 7 matrix
-
 X = np.array([np.random.normal(size=5) for x in range(7)]).T
 y = np.random.normal(size=5)
+
 # you can figure out the dimensions of any numpy array 
 print(X.shape, y.shape)
 
